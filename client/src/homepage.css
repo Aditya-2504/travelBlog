@@ -1,0 +1,136 @@
+body{
+    margin: 0%;
+}
+.home{
+  display: grid;
+  margin: 0%;
+  height: 100vh;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 70%;
+}
+.header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url('./images/header-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header-text{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 300%;
+  padding-left: 10%;
+}
+.places-slideshow{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(rgb(228, 240, 229),rgb(136, 165, 184));
+}
+.slideshow-images:hover{
+    opacity: 1;
+}
+.slideshow-images{
+  padding-top: 2%;
+  height: auto;
+  width: 70%;
+  object-fit: cover;
+  border-radius: 5%;
+  opacity: 0.9;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+.next-image:hover{
+    opacity: 1;
+}
+.next-image{
+  border-radius: 5%;
+  width: 15%;
+  height: auto;
+  opacity: 0.9;
+  padding-right: 5%;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.login {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(rgb(228, 240, 229), rgb(136, 165, 184));
+}
+.login-form{
+  border-style: double;
+  border-width: 10%;
+  letter-spacing: 1px;
+  color: rgb(241, 239, 239);
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  padding: 2% 0% 4% 0%;
+  background-image: linear-gradient(rgb(31, 54, 97), rgb(86, 106, 173));
+  width: 60%;
+  height: fit-content;
+}
+#field_user{
+  margin-top: 5%;
+}
+#field_user,#field_pass{
+  margin-bottom: 5%;
+  width: 60%;
+}
+.login_button:hover{
+  box-shadow: 1px 1px 1px,-1px -1px 1px;
+}
+.login_button{
+    letter-spacing: 1px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 10%;
+  padding: 1%;
+}

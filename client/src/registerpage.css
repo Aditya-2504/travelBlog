@@ -1,0 +1,74 @@
+.register{
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 20% 80%;
+  height: 100vh;
+  margin: 0%;
+  background-image: linear-gradient(rgb(229, 237, 214),rgb(166, 209, 224));
+}
+.register-header{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: center;
+  margin: 4%;
+  background-image: linear-gradient(rgb(29, 29, 31),rgb(8, 5, 94));
+  border-radius: 3%;
+}
+#register-header-text {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('./images/register-background.jpg');
+  border-radius: 3%;
+  color: white;
+  font-size: 300%;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 100%;
+}
+.register-slideshow-images{
+  height: 85%;
+  width: 90%;
+  border-radius: 5%;
+  padding-top: 10%;
+}
+.register-heading{
+  text-align: center;
+  padding-top: 15%;
+  font-size: 200%;  
+}
+.register-form {
+  border-style: double;
+  border-width: 10%;
+  letter-spacing: 1px;
+  color: rgb(241, 239, 239);
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+  background-image: linear-gradient(rgb(31, 54, 97), rgb(86, 106, 173));
+  width: 60%;
+  height: fit-content;
+}
+
+#register_email {
+  margin-top: 5%;
+}
+
+#register_email,#register_user,#register_pass {
+  margin-bottom: 5%;
+  width: 60%;
+}
+
+.register_button:hover {
+  box-shadow: 1px 1px 1px, -1px -1px 1px;
+}
+
+.register_button {
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 10%;
+  padding: 1%;
+}

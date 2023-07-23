@@ -1,0 +1,63 @@
+.acc-delete,
+.delete-cancel {
+  margin: 1%;
+  padding: 1%;
+  background-color: rgb(226, 242, 245);
+}
+
+.delete-content {
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 3%;
+  height: auto;
+  max-height: 50%;
+  overflow: auto;
+}
+
+.delete-content-pass {
+  width: fit-content;
+  min-width: 30%;
+  background-color: #fff;
+  border-radius: 3%;
+  height: auto;
+  max-height: 50%;
+  overflow: auto;
+}
+
+.delete {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 2%;
+  margin: 1%;
+}
+
+.modal-title {
+  margin: 0;
+  text-align: center;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+.modal-body {
+  padding: 2%;
+}
+
+#new_pass,#confirm_pass{
+  margin-top: 4%;
+  width: 80%;
+}

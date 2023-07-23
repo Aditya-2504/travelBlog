@@ -1,0 +1,160 @@
+.user {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 15% 60%;
+}
+
+.user-header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: linear-gradient(rgb(12, 12, 56), rgb(19, 27, 84));
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+}
+
+#user-header-heading {
+  color: white;
+  font-size: x-large;
+  padding-left: 8%;
+  cursor: pointer;
+}
+
+#user-search {
+  margin-top: 30px;
+  width: 50%;
+  height: 21%;
+}
+
+.searchbox {
+  background-color: whitesmoke;
+  width: 30.3%;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 52px;
+  border-style: groove;
+  border-width: 0.1%;
+  border-radius: 1%;
+}
+
+#user-searchbox:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#user-searchbox {
+  color: black;
+  font-size: 100%;
+  padding: 2% 0% 2% 5%;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.411);
+  cursor: pointer;
+}
+
+.user-menu-image:hover {
+  opacity: 0.6;
+}
+
+.user-menu-image {
+  margin-top: 10%;
+  margin: auto;
+  width: 25px;
+  cursor: pointer;
+}
+
+.user-menu {
+  background-color: rgb(236, 233, 233);
+  width: 15%;
+  position: absolute;
+  margin-left: 84%;
+  margin-top: 60px;
+  border-style: groove;
+  border-width: 1%;
+  border-radius: 2%;
+  overflow-y: scroll;
+}
+
+.pass_change:hover,
+.logout:hover,
+.del_acc:hover {
+  background-color: rgb(193, 189, 189);
+  cursor: pointer;
+}
+
+.pass_change,
+.logout,
+.del_acc {
+  font-size: 100%;
+  text-decoration: none;
+  padding: 3% 0% 3% 2%;
+}
+
+.userName {
+  text-align: center;
+  padding: 3% 0% 3% 0%;
+  font-size: 110%;
+  color: rgb(57, 56, 56);
+}
+
+.user-options {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-rows: 20% auto;
+  grid-template-columns: 100%;
+}
+
+.user-options-header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-blogs:hover,
+.saved-blogs:hover,
+.my-blogs-active:hover,
+.saved-blogs-active:hover,
+.add-blog:hover {
+  background-color: rgba(200, 200, 205, 0.724);
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+.add-blog {
+  float: right;
+  margin-right: 5%;
+  padding: 0.5%;
+}
+
+.my-blogs,
+.saved-blogs {
+  float: left;
+  margin-left: 5%;
+  padding: 0.5%;
+}
+
+.my-blogs-active,
+.saved-blogs-active {
+  background-color: rgba(200, 200, 205, 0.724);
+  float: left;
+  margin-left: 5%;
+  padding: 0.5%;
+}
+
+.visit-blogs {
+  background-color: white;
+  text-decoration: underline;
+  float: left;
+  margin-left: 5%;
+  padding: 0.5%;
+}
+
+.list-of-blogs{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-left: 5%;
+  margin-right: 15%;
+}
